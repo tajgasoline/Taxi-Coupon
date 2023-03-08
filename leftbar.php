@@ -21,8 +21,7 @@ if (!isset($_SESSION['role'])) {
 
         <li id="Rewards" ><a style="padding:0.8rem 0rem !important;" href="AllRewards.php"><i class="ti-bar-chart"></i><span>Rewards </span></i></span></a></li>
 
-     
-         <li id="FBRtransactions2" ><a style="padding:0.8rem 0rem !important;" href="Rates.php"><i class="ti-bar-chart"></i><span>Rates Management</span></i></span></a></li>
+  
 
         '; 
     }

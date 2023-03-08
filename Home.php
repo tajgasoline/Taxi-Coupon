@@ -66,7 +66,13 @@ $username = $_SESSION['username'];
                   <button type="button" class="btn btn-primary waves-effect waves-light" id="btnSearch" onclick="Searching();"> Search</button>
                 </div>
               </div>
-              <div class="form-group row">
+              <div class="form-group row" style="display: none !important;">
+                <label for="example-text-input" class="col-sm-4 col-form-label  cust-font-rem">CustID.</label>
+                <div class="col-sm-8">
+                  <input class="form-control  " type="text" disabled="" placeholder="Vehicle Number" id="custid"><span class="help-block custom-block-hide" id="vv1"><small ></small></span>
+                </div>
+              </div>
+                   <div class="form-group row">
                 <label for="example-text-input" class="col-sm-4 col-form-label  cust-font-rem">Vehicle No.</label>
                 <div class="col-sm-8">
                   <input class="form-control  " type="text" disabled="" placeholder="Vehicle Number" id="custvehicle"><span class="help-block custom-block-hide" id="vv1"><small ></small></span>
@@ -91,13 +97,10 @@ $username = $_SESSION['username'];
                   <button type="button" onclick="Submitting();" class="btn btn-primary waves-effect waves-light" style="width: 100%;">Save</button>
                 </div>
       
-                <div class="col-md-4"> 
-                  <button type="button" id="btnprint"   onclick="Printinvoice();" class="btn btn-primary waves-effect waves-light" style="width: 100%;">Print</button>
-                </div>
- 
-                <div class="col-md-4"> 
+              
+               <!--  <div class="col-md-4"> 
                   <button type="button" onclick="resetall();" class="btn btn-primary waves-effect waves-light" style="width: 100%;">Clear</button>
-                </div>
+                </div> -->
               </div>
             </div>
 
